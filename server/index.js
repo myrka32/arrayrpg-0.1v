@@ -10,7 +10,7 @@ import "./scripts/selection.js"
 function Weather(player, args)  { 
 player.setWeather(args[0])
 }; */
-//
+
 function getWeatherType(key)
 {
     let weather;
