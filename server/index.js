@@ -6,10 +6,6 @@ import PlayerConnect from "./events/PlayerConnect.js";
 import './world/accounts.js';
 import "./world/chat.js"
 import "./scripts/selection.js"
-/*chat.registerCmd("setweather", Weather)
-function Weather(player, args)  { 
-player.setWeather(args[0])
-}; */
 
 function getWeatherType(key)
 {
