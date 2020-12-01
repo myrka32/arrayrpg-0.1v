@@ -1,0 +1,132 @@
+@font-face {
+    font-family: lovecode;
+    src: url(../font/lovecode.ttf);
+  }
+body {
+    font-family: lovecode;
+}
+.wrapper {
+    position: relative;
+    width: 37.77777777777778vw;
+    height: 49vh;
+    background-color: rgba(204, 202, 191, 0.836);
+    left: 33%;
+    margin-top: 15%;
+    border-radius: 3.2222222222222223vh;
+
+}
+.logo {
+    position: relative;
+    width: 4.208vw;
+    height: 9.259vh;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    margin-left: 33vw;
+}
+.main-text {
+    color: white;
+    position: relative;
+    margin-top: -6vh;
+    margin-left: 14vw;
+    font-size: 2vh;
+ 
+}
+.icontdm-dm {
+    position: relative;
+    width: 35.208vw;
+    height: 50vh; 
+    background-image: url("../img/tdm-dm.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    margin-top: -8vh;
+    margin-left: 2vw;
+}
+.text-dm {
+    position: relative;
+    margin-top: -40vh;
+    margin-left: 6vw;
+    font-size: 2vh;
+    color: white;
+    line-height: 1.7;
+    transform:skew(160deg);
+}
+.text-tdm {
+    position: relative;
+    margin-top: -10vh;
+    margin-left: 23vw;
+    font-size: 2vh;
+    color: white;
+    line-height: 1.7;
+    transform: skew(160deg);
+}
+.dm-name {
+    position: relative;
+    width: 10.5vw;
+    height: 4.666666666666667vh;
+    top: -41vh;
+    left: 12vw;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.85);
+    font-size: 3.5vh;
+    transform: skew(160deg);
+    color: #40f551;
+}
+.tdm-name {
+    position: relative;
+    width: 10.5vw;
+    height: 4.666666666666667vh;
+    top: -36vh;
+    left: 25.9vw;
+    color: #23ddce;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.85);
+    font-size: 3.5vh;
+    transform: skew(160deg);
+}
+.join_buttondm {
+    position: relative;
+    width: 10.5vw;
+	height: 4.666666666666667vh;
+    background: linear-gradient(-90deg,#25f538, #60f56e);
+    left: 10.5vh;
+    top: 2vh;
+    display: flex;   
+    align-items: center;   
+    justify-content: center;
+    transform: skew(160deg);
+    font-size: 2vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.joindm {
+    cursor: pointer;
+    transform: skew(200deg);
+}
+
+.join_buttontdm{
+    position: relative;
+    width: 10.5vw;
+	height: 4.666666666666667vh;
+    background: linear-gradient(-90deg,#25f5e4, #23dccd);
+    left: 54.6vw;
+    top: -17.8vh;
+    display: flex;   
+    align-items: center;   
+    justify-content: center;
+    transform: skew(160deg);
+    font-size: 2vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.jointdm {
+    cursor: pointer;
+    transform: skew(200deg);
+}
+.test {
+ font-size: 3vh;
+ top: 5vh;
+ margin-left: -3vw;
+}
