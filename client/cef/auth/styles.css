@@ -30,7 +30,19 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
+input{
+          height: 2.2vw;
+          width: 12vw;
+          font-size: .85vw;
+          outline: none;
+          color: white;
+          background-color: transparent;
+          border: 1px solid #fff;
+          border-radius: .61vw;
+          padding-left: 1vw;
+          padding-top: .2vw;
+          color: #fff;
+}
 .wrapper .window {
   height: 20vw;
   width: 25vw;

@@ -101,17 +101,18 @@ function handleDone(player, newData) {
           }
       
           console.log(results[0].custumatizion)
-          if(results[0].custumatizion == undefined) {
+          if(results[0].custumatizion == "") {
+            console.log("Код пошел сюда0");
             alt.emitClient(player, 'UserSpawnStop');
             alt.emitClient(player, 'character:Edit', handleCharacterEdit);
             alt.onClient('character:Done', handleDone);
-            alt.emitClient(player,'SelectMode')
+            player.spawn(-1036.362,-2738.496, 13.79);
           }
           else {
-          
+            console.log("Код пошел сюда1");
             alt.emit('character:Sync', player, JSON.parse(results[0].custumatizion));
             alt.emitClient(player, 'UserSpawnStop');
-            alt.emitClient(player,'SelectMode')
+            player.spawn(-1036.362,-2738.496, 13.79);
           }
         })
       }
