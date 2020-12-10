@@ -5,7 +5,6 @@ import * as editor from './systems/editor';
 import "./systems/auth.js";
 import "./systems/notifications.js";
 import "./systems/chat.js";
-import "./systems/selectmode.js";
 import {drawText2d, drawText3d} from "./systems/drawtext";
 native.setPedDefaultComponentVariation(native.playerPedId());
 var WebView = new alt.WebView("http://resource/client/cef/hud/index.html");

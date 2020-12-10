@@ -1,6 +1,5 @@
 import mysql from "mysql";
 import alt from "alt";
-alt.Database = {};
 const connection = mysql.createPool({
   connectionLimit: 5,
   host: "localhost",

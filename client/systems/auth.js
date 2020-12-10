@@ -37,6 +37,7 @@ native.freezeEntityPosition(alt.Player.local.scriptID,true);
     skinChooserCam.unrender();
     native.displayHud(true);
     native.displayRadar(false);
+    alt.showCursor(false);
     WebView.destroy();
     native.freezeEntityPosition(alt.Player.local.scriptID, false);
   //  notifications.show('Вы успешно зарегистрированы!', false, 134);

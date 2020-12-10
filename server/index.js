@@ -1,11 +1,10 @@
 import alt from "alt";
 import './events/PlayerConnect.js';
 import './commands/index.js';
-import mysql from './mysql/mysql.js';
+import {connection} from './mysql/mysql.js';
 import PlayerConnect from "./events/PlayerConnect.js";
 import './world/accounts.js';
 import "./world/chat.js"
-import "./scripts/selection.js"
 /*chat.registerCmd("setweather", Weather)
 function Weather(player, args)  { 
 player.setWeather(args[0])
